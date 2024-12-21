@@ -1,0 +1,35 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .card-video-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0f0f0f;
+    margin: 5px 0;
+}
+
+.card .card-channel-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    margin: 6px 0;
+}
+
+.card .card-views-time {
+    font-size: 14px;
+    font-weight: 400;
+}

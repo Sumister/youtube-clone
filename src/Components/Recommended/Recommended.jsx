@@ -20,7 +20,7 @@ const Recommended = ({categoryId}) => {
     <div className='recommended'>
         {recommendData.map((item, index) => {
             return (
-                <Link to={`/video/${item.snippet.categoryId}/${item.id}`} key={index} className="side-video-list">
+                <Link to={`/youtube-clone/video/${item.snippet.categoryId}/${item.id}`} key={index} className="side-video-list">
                     <img src={item.snippet.thumbnails.medium.url} alt="thumnail image" />
                     <div className="vid-info">
                         <h4>{item.snippet.title}</h4>

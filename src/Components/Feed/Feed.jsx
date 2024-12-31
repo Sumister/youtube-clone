@@ -22,7 +22,7 @@ const Feed = ({category}) => {
       {console.log(data)}
       {data.map((item, index) => {
         return (
-          <Link key={index} to={`video/${item.snippet.categoryId}/${item.id}`} className='card'>
+          <Link key={index} to={`/youtube-clone/video/${item.snippet.categoryId}/${item.id}`} className='card'>
             <img src={item.snippet.thumbnails.maxres ? item.snippet.thumbnails.maxres.url : item.snippet.thumbnails.medium.url} alt="thumbnail 1" />
             <h2 className='card-video-title'>{item.snippet.title}</h2>
             <h3 className='card-channel-title'>{item.snippet.channelTitle}</h3>

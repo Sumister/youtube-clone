@@ -1,4 +1,7 @@
-This is a small Youtube clone type of project created by me using React.js
+This is a small Youtube clone type of project created by me using the below
+1.React.js
+2. youtube API
+3. React router
 
 You can see this project live @ https://sumister.github.io/youtube-clone/
 
